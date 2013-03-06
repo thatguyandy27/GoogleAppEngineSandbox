@@ -8,12 +8,6 @@ handlers:
 - url: /.*
   script: helloworld.app
   
-indexes:
-- kind: Greeting
-  ancestor: yes
-  properties: 
-  - name: date
-    direction: desc
 
 libraries:
 - name: jinja2
